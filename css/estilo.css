@@ -90,7 +90,6 @@ body.fotos #navegacao a#fotos{
     width:270px;
     float: left;
     margin:0 0 20px 195px;
-    background: blue;
 }
 
 #duas-colunas #primario{
@@ -106,7 +105,6 @@ body.fotos #navegacao a#fotos{
     width:270px;
     float: left;
     margin: 0 0 20px 15px;
-    background:green;
 }
 
 #lateral{
@@ -133,6 +131,57 @@ h2{
     margin-top:5px;
 }
 
+#lateral ul a{
+    font-size:0.9em;
+    padding:3px;
+    display:block;
+    line-height:30px;
+    color:#000;
+    text-decoration:none;
+    border-bottom:1px solid #f3f3f3;
+}
+
+#lateral ul a:hover{
+    background:#f9f9f9 url(../imagens/marcador.png) no-repeat left center;
+    color:#a1a1a1;
+    padding-left:20px;
+}
+
+label{
+    display:block;
+    cursor:pointer;
+}
+
+input{
+    font-size:0.9em;
+    background-color:#fff;
+    padding: 5px;
+    width: 125px;
+}
+
+input.submit{
+    width:80px;
+    color:#fff;
+    background-color:#b10333;
+    border:2px solid #870529;
+}
+
+img.imagem-principal{
+    width:98%;
+    border:3px solid #dfdfdf;
+}
+
+h3{
+    text-transform:uppercase;
+    display:inline;
+    font-size:0.8em;
+    padding:3px;
+    background-color: #b10333;
+    color:#fff;
+}
+.entrevista h3{
+    background-color:#de003e;
+}
 /*rodape*/
 #container-rodape{
     background:#294c71;
