@@ -202,17 +202,30 @@ img.imagem-principal{
    
   }
 #lista-noticias li a h3 {
-   font-size: 0.8em;
+   font-size: 0.9em;
    padding: 0;
-   color: rgba(0, 0, 255, 0.507);
+   color:#3e7ab9;
 }
 #lista-noticias li a p {
-    font-size:0.6em;
+    font-size:0.7em;
     color:rgb(0, 0, 0);
 }
-
+#lista-noticias li:hover {
+  background-color:#eee;
+  cursor: pointer;
+}
 #rodape{
     width:750px;
     margin:0 auto;
     color:#fff;
+}
+a:link, a:visited{
+    color:#b10333;
+    padding:2px;
+    text-decoration: none;
+}
+
+a:hover{
+    color:#e50040;
+    text-decoration:underline;
 }
